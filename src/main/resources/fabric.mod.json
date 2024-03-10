@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "i_am_not_underground",
+	"version": "${version}",
+	"name": "I Am Not Underground!",
+	"description": "Prevents the sky from turning dark when you travel below a certain Y level. Mostly meant for playing skyblock.",
+	"authors": [
+		"enjarai"
+	],
+	"contact": {
+		"homepage": "https://enjarai.dev/",
+		"sources": "https://github.com/enjarai/i-am-not-underground"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/i_am_not_underground/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"dev.enjarai.notunderground.IAmNotUnderground"
+		]
+	},
+	"mixins": [
+		"i_am_not_underground.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"java": ">=17"
+	}
+}
